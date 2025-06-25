@@ -1,2 +1,8 @@
-const BasePage = require("../../features/pageobjects/page");
-const { Sidemenu } = require("../components");
+const BasePage = require("./base.page");
+
+class DashboardPage extends BasePage {
+    constructor() {
+        super("/showcase/angular/appoinmentplanner/#/dashboard");
+    }
+}
+module.exports = DashboardPage;
