@@ -2,7 +2,7 @@ const BaseComponent = require("./base.component");
 
 class SideMenuComponent extends BaseComponent {
     constructor() {
-        super(("#plannerSidebar"));
+        super(("#plannerSiderBar"));
     }
     get name() {
         return this.rootEl.$("p.name");

@@ -4,11 +4,11 @@ class BasePage {
     constructor(url) {
         this.url = url;
         this.header = new Header();
-        this.sidemenu = new SideMenu();
-    };
+        this.sideMenu = new SideMenu();
+    }
 
     open() {
-        return browser.url(this.url);
+        return browser.url(this.url); 
     }
 }
 module.exports = BasePage;
